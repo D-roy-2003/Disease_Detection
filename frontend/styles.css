@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #82b440;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+main {
+    padding: 20px;
+}
+
+#upload-section, #result-section {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload-section h2, #result-section h2 {
+    margin-top: 0;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #82b440;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #6f9c36;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #82b440;
+    text-decoration: none;
+}
